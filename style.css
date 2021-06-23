@@ -1,0 +1,36 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+body{
+    width:250px;
+    height:300px;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: lightslategray;
+    border-color: lightslategray;
+}
+
+button:hover{
+    background-color: lightgreen;
+}

@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "URLtoQRCode",
+    "version": "0.1",
+    "browser_action": {
+        "default_icon": "logo.png",
+        "default_popup": "index.html"
+    },
+    "icons": { "16": "logo.png",
+        "48": "logo.png",
+       "128": "logo.png" },
+    "permissions": [
+        "activeTab"
+    ],
+    "commands": {
+        "create": {
+            "suggested_key": {
+                "default": "Alt+Shift+C",
+                "windows": "Alt+Shift+C",
+                "mac": "Alt+Shift+C"
+                
+            },
+            "description": "Create QR Code"
+        }
+    }
+}
